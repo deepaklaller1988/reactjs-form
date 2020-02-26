@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  font-size: 14px;
+  margin: 0;
+    padding: 0;
+}
+.App span {
+  width: 100%;
+  display: block;
+  text-align: left;
+}
+label.label-names {
+  font-size: 18px;
+  margin-bottom: 5px;
+  display: block;
+}
+.App span label {
+  padding: 4px 0;
+  display: block;
+}
+.App span label input[type="radio"] {
+  float: left;
+  margin: 2px 5px 0 0px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.App {
+  width: 330px;
+  margin: 0 auto;
+  border: 1px solid #e8e5d2;
+  border-radius: 4px;
+  padding: 15px;
+  position: absolute;
+  left: 50%;
+  margin-left: -165px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fffbeb;
+}
+
+.App select, .App input[type="text"], .App textarea {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  background: white;
+  margin: 10px 0;
+  border: 1px solid #e8e5d2;
+  border-radius: 4px;
+}
+
+.App input[type="text"] {
+  margin: 0 0 10px;
+}
+
+.App textarea {
+  margin: 0 0 10px;
+  min-height: 80px;
+  max-width: 100%;
+}
+
+.App .button {
+  background: #af5050;
+  border: 1px solid #923d3d;
+  color: white;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+.styles_modal__gNwvD.styles_modalCenter__L9F2w button.styles_closeButton__20ID4 {
+  width: 24px;
+  height: 24px;
+  background: #fff;
+  border-radius: 14px;
+  top: -16px;
+  right: -15px;
+  padding: 4px;
+}
+button.styles_closeButton__20ID4 svg {
+  width: 16px;
+  height: 16px;
+}
+
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+/* .App-link {
+  color: #61dafb;
+} */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
